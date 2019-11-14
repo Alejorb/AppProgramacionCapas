@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppProgramacionCapas
 {
-    class Factorial
+    public static class Factorial
     {
         /// <summary>
         /// Calcular el factorial de un número
@@ -19,8 +19,8 @@ namespace AppProgramacionCapas
             if (num == 0 || num == 1)
                 return f;
 
-            for (int = 1; int <= num; int++)
-                f = f * 1;
+            for (int i= 1; i <= num; i++)
+                f = f * i;
 
             return f;
         }
@@ -35,4 +35,5 @@ namespace AppProgramacionCapas
             return (num * num);
         }
     }
+
 }
