@@ -100,6 +100,7 @@
             this.Controls.Add(this.txtNum);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CÁLCULO DE FACTORIAL";
             this.ResumeLayout(false);
             this.PerformLayout();
