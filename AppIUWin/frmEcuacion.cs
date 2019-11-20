@@ -45,5 +45,24 @@ namespace AppIUWin
                 this.txtX2.Text = msg2;
 
         }
+
+        private void btnGetx1_Click(object sender, EventArgs e)
+        {
+            double a, b, c, x1, x2;
+            a = Double.Parse(this.txtA.Text);
+            b = Double.Parse(this.txtB.Text);
+            c = Double.Parse(this.txtC.Text);
+           try
+            {
+                x1 = AppProgramacionCapas.EcuaciónCuadrática.getx1(a, b, c);
+                this.txtX1.Text = x1.ToString("0.00");
+            }
+            catch(Exception ex1)
+            {
+                MessageBox.Show(ex1.Message.ToString());
+            }
+
+           
+        }
     }
 }

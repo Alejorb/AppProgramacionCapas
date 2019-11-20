@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnCerar = new System.Windows.Forms.Button();
+            this.btnGetx1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -155,11 +156,22 @@
             this.btnCerar.UseVisualStyleBackColor = true;
             this.btnCerar.Click += new System.EventHandler(this.btnCerar_Click);
             // 
+            // btnGetx1
+            // 
+            this.btnGetx1.Location = new System.Drawing.Point(554, 222);
+            this.btnGetx1.Name = "btnGetx1";
+            this.btnGetx1.Size = new System.Drawing.Size(130, 28);
+            this.btnGetx1.TabIndex = 19;
+            this.btnGetx1.Text = "Get x1";
+            this.btnGetx1.UseVisualStyleBackColor = true;
+            this.btnGetx1.Click += new System.EventHandler(this.btnGetx1_Click);
+            // 
             // frmEcuacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGetx1);
             this.Controls.Add(this.btnCerar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -195,5 +207,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnCerar;
+        private System.Windows.Forms.Button btnGetx1;
     }
 }
