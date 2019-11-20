@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AppIUWin
+namespace AppWindows
 {
     public partial class Form1 : Form
     {
@@ -17,16 +17,12 @@ namespace AppIUWin
             InitializeComponent();
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            double res;
-            int num;
-            num = int.Parse(this.txtNum.Text);
-            res = AppProgramacionCapas.Factorial.fact(num);
-            this.txtRes.Text = res.ToString();
+
         }
 
-        private void txtNum_TextChanged(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
 
         }

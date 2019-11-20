@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppIUWin", "AppIUWin\AppIUW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPruebaFactorial", "AppPruebaFactorial\AppPruebaFactorial.csproj", "{569D35CD-6F8F-4BB5-A1DE-347488BA5EDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWindows", "AppWindows\AppWindows.csproj", "{C1CA3826-C4D7-49EC-9B7D-2E9BB836BCFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{569D35CD-6F8F-4BB5-A1DE-347488BA5EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569D35CD-6F8F-4BB5-A1DE-347488BA5EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569D35CD-6F8F-4BB5-A1DE-347488BA5EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CA3826-C4D7-49EC-9B7D-2E9BB836BCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CA3826-C4D7-49EC-9B7D-2E9BB836BCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CA3826-C4D7-49EC-9B7D-2E9BB836BCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CA3826-C4D7-49EC-9B7D-2E9BB836BCFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
